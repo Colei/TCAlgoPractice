@@ -1,12 +1,20 @@
 #include<iostream>
 using namespace std;
 
+
+
+int fib(int n){
+
+	if (n == 0) return 0;
+	if (n == 1) return 1;
+	return fib(n - 1) + fib(n - 2);
+}
 int main()
 {
 
-	cout << "asdfasd";
-	for (int i = 0; i < 100; i++) {
-		cout << i*i*i << endl;
+	cout << "Fibonacci numbers"<<endl;
+	for (int i = 0; i <= 30; i++) {
+		cout << i << ": " << fib(i) << endl;
 	}
 	cin.get();
 	return 0;
