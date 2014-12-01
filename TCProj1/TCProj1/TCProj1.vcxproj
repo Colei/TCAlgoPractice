@@ -13,6 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{45CA8A04-1D86-4C61-A9B2-0CDC33BB47F5}</ProjectGuid>
     <RootNamespace>TCProj1</RootNamespace>
+    <ProjectName>SRMPractice</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -67,9 +68,15 @@
   <ItemGroup>
     <ClCompile Include="QuickSums.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="StripePainter.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="QuickSums.h" />
+    <ClInclude Include="StripePainter.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="QuickSumsProblemStatement.txt" />
+    <Text Include="StripePainterProblemStatement.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

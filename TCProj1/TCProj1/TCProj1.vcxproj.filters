@@ -28,18 +28,35 @@
     <Filter Include="Header Files\SRMPractice\DynamicProgramming">
       <UniqueIdentifier>{8aef29f3-4663-4e6b-9e96-6fac0c1e4550}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\SRMPractice\DynamicProgramming\StripePainter">
+      <UniqueIdentifier>{289fec9b-5215-4359-8558-10a442c6ad04}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="QuickSums.cpp">
-      <Filter>Source Files\SRMPractice\DynamicProgramming</Filter>
+      <Filter>Source Files\SRMPractice\DynamicProgramming\QuickSums</Filter>
+    </ClCompile>
+    <ClCompile Include="StripePainter.cpp">
+      <Filter>Source Files\SRMPractice\DynamicProgramming\StripePainter</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="QuickSums.h">
       <Filter>Header Files\SRMPractice\DynamicProgramming</Filter>
     </ClInclude>
+    <ClInclude Include="StripePainter.h">
+      <Filter>Header Files\SRMPractice\DynamicProgramming</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="StripePainterProblemStatement.txt">
+      <Filter>Source Files\SRMPractice\DynamicProgramming\StripePainter</Filter>
+    </Text>
+    <Text Include="QuickSumsProblemStatement.txt">
+      <Filter>Source Files\SRMPractice\DynamicProgramming\QuickSums</Filter>
+    </Text>
   </ItemGroup>
 </Project>
