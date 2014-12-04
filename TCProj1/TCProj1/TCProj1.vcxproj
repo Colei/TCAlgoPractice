@@ -66,15 +66,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Experimenting.cpp" />
+    <ClCompile Include="GooseInZooDivTwo.cpp" />
     <ClCompile Include="QuickSums.cpp" />
+    <ClCompile Include="QuickSums2.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="StripePainter.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="GooseInZooDivTwo.h" />
     <ClInclude Include="QuickSums.h" />
     <ClInclude Include="StripePainter.h" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="ProblemStatement.txt" />
     <Text Include="QuickSumsProblemStatement.txt" />
     <Text Include="StripePainterProblemStatement.txt" />
   </ItemGroup>
