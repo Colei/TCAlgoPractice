@@ -66,6 +66,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ChessMetric.cpp" />
     <ClCompile Include="Experimenting.cpp" />
     <ClCompile Include="GooseInZooDivTwo.cpp" />
     <ClCompile Include="QuickSums.cpp" />
@@ -74,11 +75,13 @@
     <ClCompile Include="StripePainter.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ChessMetric.h" />
     <ClInclude Include="GooseInZooDivTwo.h" />
     <ClInclude Include="QuickSums.h" />
     <ClInclude Include="StripePainter.h" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="ChessMetricProblemStatment.txt" />
     <Text Include="ProblemStatement.txt" />
     <Text Include="QuickSumsProblemStatement.txt" />
     <Text Include="StripePainterProblemStatement.txt" />

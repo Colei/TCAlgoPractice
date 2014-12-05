@@ -31,8 +31,17 @@
     <Filter Include="Source Files\SRMPractice\DynamicProgramming\StripePainter">
       <UniqueIdentifier>{289fec9b-5215-4359-8558-10a442c6ad04}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\SRMPractice\DynamicProgramming\GooseInZooDivTwo">
+    <Filter Include="Source Files\SRMPractice\GraphSearching">
+      <UniqueIdentifier>{2f6000cf-b1d5-4128-b1ef-ba3a91fa858e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SRMPractice\GraphSearching\GooseInZooDivTwo">
       <UniqueIdentifier>{0d253d5b-0edb-4313-a606-b64577895911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SRMPractice\GraphSearching\ChessMetric">
+      <UniqueIdentifier>{f31e0c24-5782-4455-9d40-5cc21bd7e5c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SRMPractice\GraphSearching">
+      <UniqueIdentifier>{a59ab02d-f3f4-4bf4-9d9e-7278b1d29948}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -52,7 +61,10 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="GooseInZooDivTwo.cpp">
-      <Filter>Source Files\SRMPractice\DynamicProgramming\GooseInZooDivTwo</Filter>
+      <Filter>Source Files\SRMPractice\GraphSearching\GooseInZooDivTwo</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessMetric.cpp">
+      <Filter>Source Files\SRMPractice\GraphSearching\ChessMetric</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -62,8 +74,11 @@
     <ClInclude Include="StripePainter.h">
       <Filter>Header Files\SRMPractice\DynamicProgramming</Filter>
     </ClInclude>
+    <ClInclude Include="ChessMetric.h">
+      <Filter>Header Files\SRMPractice\GraphSearching</Filter>
+    </ClInclude>
     <ClInclude Include="GooseInZooDivTwo.h">
-      <Filter>Header Files\SRMPractice\DynamicProgramming</Filter>
+      <Filter>Header Files\SRMPractice\GraphSearching</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -74,7 +89,10 @@
       <Filter>Source Files\SRMPractice\DynamicProgramming\QuickSums</Filter>
     </Text>
     <Text Include="ProblemStatement.txt">
-      <Filter>Source Files\SRMPractice\DynamicProgramming\GooseInZooDivTwo</Filter>
+      <Filter>Source Files\SRMPractice\GraphSearching\GooseInZooDivTwo</Filter>
+    </Text>
+    <Text Include="ChessMetricProblemStatment.txt">
+      <Filter>Source Files\SRMPractice\GraphSearching\ChessMetric</Filter>
     </Text>
   </ItemGroup>
 </Project>

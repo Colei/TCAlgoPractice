@@ -3,6 +3,7 @@
 #include<algorithm>
 #include "QuickSums.h"
 #include "GooseInZooDivTwo.h"
+#include "ChessMetric.h"
 #define oo 1<<30
 using namespace std;
 
@@ -84,6 +85,21 @@ int main() {
 
 
 	cout << k3;// 1 << endl << k2 << endl << k3;
+	
+	
+	ChessMetric cm;
+	int start1[] {4,4};
+	int end1[] {4,4};
+	int chessMetricResult1 = cm.howMany(8, start1, end1, 6);
+	cout << endl << endl << chessMetricResult1;
+
+
+	int start2[] {0, 0};
+	int end2[] {0, 99};
+	long long chessMetricResult2 = cm.howMany(100, start2, end2, 50);
+	cout << endl << endl << chessMetricResult2;
+
+
 	cin.get();
 	return 9;
 }
