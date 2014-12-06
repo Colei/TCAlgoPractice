@@ -4,6 +4,7 @@
 #include "QuickSums.h"
 #include "GooseInZooDivTwo.h"
 #include "ChessMetric.h"
+#include "FriendScore.h"
 #define oo 1<<30
 using namespace std;
 
@@ -99,7 +100,27 @@ int main() {
 	long long chessMetricResult2 = cm.howMany(100, start2, end2, 50);
 	cout << endl << endl << chessMetricResult2;
 
+	
+	FriendScore fs;
+	vector<string> network1;
 
+	network1.push_back("NNNNNNNNNNNNNNY");
+		network1.push_back("NNNNNNNNNNNNNNN");
+		network1.push_back("NNNNNNNYNNNNNNN");
+		network1.push_back("NNNNNNNYNNNNNNY");
+		network1.push_back("NNNNNNNNNNNNNNY");
+		network1.push_back("NNNNNNNNYNNNNNN");
+		network1.push_back("NNNNNNNNNNNNNNN");
+		network1.push_back("NNYYNNNNNNNNNNN");
+		network1.push_back("NNNNNYNNNNNYNNN");
+		network1.push_back("NNNNNNNNNNNNNNY");
+		network1.push_back("NNNNNNNNNNNNNNN");
+		network1.push_back("NNNNNNNNYNNNNNN");
+		network1.push_back("NNNNNNNNNNNNNNN");
+		network1.push_back("NNNNNNNNNNNNNNN");
+		network1.push_back("YNNYYNNNNYNNNNN");
+	int friendScoreResult = fs.score(network1);
+	cout << endl << endl << friendScoreResult;
 	cin.get();
 	return 9;
 }

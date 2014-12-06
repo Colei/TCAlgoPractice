@@ -43,6 +43,9 @@
     <Filter Include="Header Files\SRMPractice\GraphSearching">
       <UniqueIdentifier>{a59ab02d-f3f4-4bf4-9d9e-7278b1d29948}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\SRMPractice\GraphSearching\FriendScore">
+      <UniqueIdentifier>{0dce76d1-d545-472c-b80d-71c323e5e6fe}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
@@ -66,6 +69,9 @@
     <ClCompile Include="ChessMetric.cpp">
       <Filter>Source Files\SRMPractice\GraphSearching\ChessMetric</Filter>
     </ClCompile>
+    <ClCompile Include="FriendScore.cpp">
+      <Filter>Source Files\SRMPractice\GraphSearching\FriendScore</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="QuickSums.h">
@@ -78,6 +84,9 @@
       <Filter>Header Files\SRMPractice\GraphSearching</Filter>
     </ClInclude>
     <ClInclude Include="GooseInZooDivTwo.h">
+      <Filter>Header Files\SRMPractice\GraphSearching</Filter>
+    </ClInclude>
+    <ClInclude Include="FriendScore.h">
       <Filter>Header Files\SRMPractice\GraphSearching</Filter>
     </ClInclude>
   </ItemGroup>
@@ -93,6 +102,9 @@
     </Text>
     <Text Include="ChessMetricProblemStatment.txt">
       <Filter>Source Files\SRMPractice\GraphSearching\ChessMetric</Filter>
+    </Text>
+    <Text Include="FriendScoreProblemStatement.txt">
+      <Filter>Source Files\SRMPractice\GraphSearching\FriendScore</Filter>
     </Text>
   </ItemGroup>
 </Project>
