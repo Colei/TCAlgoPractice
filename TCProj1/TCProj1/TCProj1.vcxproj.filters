@@ -46,6 +46,9 @@
     <Filter Include="Source Files\SRMPractice\GraphSearching\FriendScore">
       <UniqueIdentifier>{0dce76d1-d545-472c-b80d-71c323e5e6fe}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\SRMPractice\DynamicProgramming\BoardFolding">
+      <UniqueIdentifier>{745b5a08-e89c-4d4d-8de4-9e228696d9aa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
@@ -72,6 +75,9 @@
     <ClCompile Include="FriendScore.cpp">
       <Filter>Source Files\SRMPractice\GraphSearching\FriendScore</Filter>
     </ClCompile>
+    <ClCompile Include="BoardFolding.cpp">
+      <Filter>Source Files\SRMPractice\DynamicProgramming\BoardFolding</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="QuickSums.h">
@@ -89,6 +95,9 @@
     <ClInclude Include="FriendScore.h">
       <Filter>Header Files\SRMPractice\GraphSearching</Filter>
     </ClInclude>
+    <ClInclude Include="BoardFolding.h">
+      <Filter>Header Files\SRMPractice\DynamicProgramming</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="StripePainterProblemStatement.txt">
@@ -105,6 +114,9 @@
     </Text>
     <Text Include="FriendScoreProblemStatement.txt">
       <Filter>Source Files\SRMPractice\GraphSearching\FriendScore</Filter>
+    </Text>
+    <Text Include="BoardFoldingProblemStatement.txt">
+      <Filter>Source Files\SRMPractice\DynamicProgramming\BoardFolding</Filter>
     </Text>
   </ItemGroup>
 </Project>

@@ -66,6 +66,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BoardFolding.cpp" />
     <ClCompile Include="ChessMetric.cpp" />
     <ClCompile Include="Experimenting.cpp" />
     <ClCompile Include="FriendScore.cpp" />
@@ -76,6 +77,7 @@
     <ClCompile Include="StripePainter.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BoardFolding.h" />
     <ClInclude Include="ChessMetric.h" />
     <ClInclude Include="FriendScore.h" />
     <ClInclude Include="GooseInZooDivTwo.h" />
@@ -83,6 +85,7 @@
     <ClInclude Include="StripePainter.h" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="BoardFoldingProblemStatement.txt" />
     <Text Include="ChessMetricProblemStatment.txt" />
     <Text Include="FriendScoreProblemStatement.txt" />
     <Text Include="ProblemStatement.txt" />

@@ -5,6 +5,7 @@
 #include "GooseInZooDivTwo.h"
 #include "ChessMetric.h"
 #include "FriendScore.h"
+#include "BoardFolding.h"
 #define oo 1<<30
 using namespace std;
 
@@ -121,6 +122,20 @@ int main() {
 		network1.push_back("YNNYYNNNNYNNNNN");
 	int friendScoreResult = fs.score(network1);
 	cout << endl << endl << friendScoreResult;
+
+
+
+	BoardFolding bf;
+	vector<string> vectors1;
+	vectors1.push_back("0110");
+	vectors1.push_back("1001");
+	vectors1.push_back("1001");
+	vectors1.push_back("0110");
+	int c = bf.count(vectors1);
+
+	cout << endl << endl << c;
+
+
 	cin.get();
 	return 9;
 }
